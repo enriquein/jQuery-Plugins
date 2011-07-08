@@ -1,5 +1,5 @@
 jQuery.contentPanel
--------------------
+========
 
 A simple content panel heavilly inspired on
 jQuery UI's accordion panels, but individual
@@ -9,7 +9,7 @@ themeable that way.
 
 
 Usage
-=====
+-----
 Your markup should look like this (using the Cupertino theme from jQueryUI.com):
 
     <html>
