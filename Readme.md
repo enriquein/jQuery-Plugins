@@ -36,5 +36,8 @@ Your markup should look like this (using the Cupertino theme from jQueryUI.com):
     </body>
     </html>
 
+Will produce something like this:
+![jQuery.contentpanel(demo.png "jQuery.contentpanel")
+    
 That's all there is to it. This plugin was developed 
 against jQuery 1.5.1 and jQuery UI 1.8.14.
