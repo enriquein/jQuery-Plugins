@@ -1,5 +1,5 @@
 ﻿.ui-panel { width: 100%; }
-.ui-panel .ui-panel-header { position: relative; margin-top: 1px; zoom: 1; border-bottom: 0 !important;}
+.ui-panel .ui-panel-header { position: relative; border-bottom-width: 0; }
 .ui-panel .ui-panel-li-fix { display: inline; }
 .ui-panel .ui-panel-header span { display: block; font-size: 1em; padding: .5em .5em .5em .7em; }
-.ui-panel .ui-panel-content { padding: 1em 2.2em; position: relative; overflow: auto; display: block; zoom: 1;}
+.ui-panel .ui-panel-content { padding: 1em 2.2em; position: relative; overflow: auto; display: block;}

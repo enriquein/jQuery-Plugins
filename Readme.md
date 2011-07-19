@@ -19,20 +19,20 @@ Your markup should look like this (using the Cupertino theme from jQueryUI.com):
     <head>
     <body>
         <div id="test">
-	    <h3>Title has to go inside a h3 tag.</h3>
-	    <div>
-	        Here you can put whatever. Images, divs, p tags.
-		Anything goes. I think.
-	    </div>
-	</div>
+            <h3>Title has to go inside a h3 tag.</h3>
+            <div>
+                Here you can put whatever. Images, divs, p tags.
+                Anything goes. I think.
+            </div>
+        </div>
 
         <script language="javascript" type="text/javascript" src="jquery.js"></script>
-	<script language="javascript" type="text/javascript" src="jquery.contentpanel.js"></script>    
-	<script language="javascript" type="text/javascript"> 
-	    $(document).ready(function() {
+        <script language="javascript" type="text/javascript" src="jquery.contentpanel.js"></script>    
+        <script language="javascript" type="text/javascript"> 
+            $(document).ready(function() {
                 $('#test').contentPanel();
-	    });
-	</script>
+            });
+        </script>
     </body>
     </html>
 
