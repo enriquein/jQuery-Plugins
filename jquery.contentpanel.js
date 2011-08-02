@@ -53,11 +53,11 @@ against jQuery 1.5.1 and jQuery UI 1.8.14.
 function createContentPanel() {
     var $this = $(this);
     var $heading = $this.find('h3:first'); 
-    var title = $heading.text();
+    var title = $heading.html();
     
     $this.addClass('ui-panel ui-widget ui-helper-reset')
     $heading.addClass('ui-panel-header ui-helper-reset ui-state-default ui-corner-top');
-    $heading.text('');
+    $heading.html('');
     $('<span>' + title + '</span>').appendTo($heading);
     $this.find('div:first').addClass('ui-panel-content ui-helper-reset ui-widget-content ui-corner-bottom');
 }
